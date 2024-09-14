@@ -738,17 +738,16 @@ video {
   margin-right: auto;
 }
 
-.my-4{
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
 .mb-10{
   margin-bottom: 2.5rem;
 }
 
 .mb-16{
   margin-bottom: 4rem;
+}
+
+.mb-4{
+  margin-bottom: 1rem;
 }
 
 .mb-\[4px\]{
@@ -771,20 +770,12 @@ video {
   margin-top: 0.5rem;
 }
 
-.mt-5{
-  margin-top: 1.25rem;
-}
-
-.mb-8{
-  margin-bottom: 2rem;
-}
-
 .mt-4{
   margin-top: 1rem;
 }
 
-.mb-4{
-  margin-bottom: 1rem;
+.mt-5{
+  margin-top: 1.25rem;
 }
 
 .box-border{
@@ -1318,10 +1309,6 @@ video {
 
 .grid-flow-col-dense{
   grid-auto-flow: column dense;
-}
-
-.grid-cols-2{
-  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .flex-row{
@@ -2099,10 +2086,6 @@ video {
 
 .p-8{
   padding: 2rem;
-}
-
-.p-4{
-  padding: 1rem;
 }
 
 .px-1{
