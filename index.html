@@ -1,708 +1,319 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>gurainzuv.3</title>
-    <link rel="stylesheet" href="/src/output.css">
+    <link rel="stylesheet" href="/src/output.css" />
     <style>
-        body::-webkit-scrollbar{
+        body::-webkit-scrollbar {
             display: none;
-        };
+        }
     </style>
 </head>
+
 <body class="font-unica">
-    <nav class="flex items-center
-                justify-between
-                p-6">
-        <div class="flex 
-                    lg:bg-transparent 
-                    p-3 
-                    rounded-lg 
-                    backdrop-blur-lg 
-                    animate-fade-down 
-                    animate-once 
-                    animate-duration-1000">
-            <h1 class="text-3xl 
-                       font-extrabold 
-                       lg:text-white 
-                       text-white
-                       ">Gurainzu
+    <nav class="flex items-center justify-between p-6">
+        <div
+            class="flex lg:bg-transparent p-3 rounded-lg backdrop-blur-lg animate-fade-down animate-once animate-duration-1000">
+            <h1 class="text-3xl font-extrabold lg:text-white text-white">
+                Gurainzu
             </h1>
         </div>
-        <div class="hidden 
-                    lg:flex 
-                    gap-6 
-                    text-xl 
-                    animate-fade-down 
-                    animate-once 
-                    animate-duration-1000 
-                    text-white">
-            <a draggable="false" 
-               href="index.html">
-               Home
-            </a>
-            <a draggable="false" 
-               href="#about">
-               About
-            </a>
-            <a draggable="false" 
-               href="#mal">
-               MAL
-            </a>
-            <a href="#project"
-               draggable="false">
-               Projects                
-            </a>
-            <a draggable="false" 
-               href="#random">
-               Random
-            </a>
+        <div class="hidden lg:flex gap-6 text-xl animate-fade-down animate-once animate-duration-1000 text-white">
+            <a draggable="false" href="index.html"> Home </a>
+            <a draggable="false" href="#about"> About </a>
+            <a draggable="false" href="#mal"> MAL </a>
+            <a href="#project" draggable="false"> Projects </a>
+            <a draggable="false" href="#random"> Random </a>
         </div>
     </nav>
-    
-    <div class="w-screen
-                z-0
-                mb-[425px]
-                lg:mb-48">
-        <video autoplay 
-               muted 
-               loop 
-               class="w-full 
-                      h-full 
-                      object-cover 
-                      absolute
-                      top-0 
-                      -z-10
-                      " 
-                src="https://res.cloudinary.com/djd4jlq7o/video/upload/f_auto:video,q_auto/hvsd2pixyyc8xwry4ri2"
-                preload="auto">
-        </video>
+
+    <div class="w-screen z-0 mb-[425px] lg:mb-48">
+        <video autoplay muted loop class="w-full h-full object-cover absolute top-0 -z-10"
+            src="https://res.cloudinary.com/djd4jlq7o/video/upload/f_auto:video,q_auto/hvsd2pixyyc8xwry4ri2"
+            preload="auto"></video>
         <div class="relative rounded-md max-w-lg mx-auto backdrop-blur-sm p-8 justify-center mt-40 text-center">
-            <h1 class="inline-block text-transparent bg-clip-text font-extrabold bg-gradient-to-br from-[#1B677D] from-40% via-[#b7c3c4] via-60% to-[#5e98aa] to-100% hover:bg-gradient-to-tl from-[#2C86A6] to-[#A2A8B2] text-center text-2xl lg:text-6xl p-2">ようこそ,</h1>
-            <h1 class="inline-block text-transparent bg-clip-text font-extrabold bg-gradient-to-tl from-[#1B677D] from-40% via-[#b7c3c4] via-60% to-[#5e98aa] to-100% hover:bg-gradient-to-br from-[#2C86A6] to-[#A2A8B2] text-center text-2xl lg:text-6xl p-2"> 私のウェブへ</h1>
-            <button type="button" class="text-white bg-gradient-to-br from-[#1B677D] from-40% via-[#b7c3c4] via-60% to-[#5e98aa] to-100% hover:bg-gradient-to-tl from-[#2C86A6] to-[#A2A8B2] font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center">
+            <h1
+                class="inline-block text-transparent bg-clip-text font-extrabold bg-gradient-to-br from-[#1B677D] from-40% via-[#b7c3c4] via-60% to-[#5e98aa] to-100% hover:bg-gradient-to-tl from-[#2C86A6] to-[#A2A8B2] text-center text-2xl lg:text-6xl p-2">
+                ようこそ,
+            </h1>
+            <h1
+                class="inline-block text-transparent bg-clip-text font-extrabold bg-gradient-to-tl from-[#1B677D] from-40% via-[#b7c3c4] via-60% to-[#5e98aa] to-100% hover:bg-gradient-to-br from-[#2C86A6] to-[#A2A8B2] text-center text-2xl lg:text-6xl p-2">
+                私のウェブへ
+            </h1>
+            <button type="button"
+                class="text-white bg-gradient-to-br from-[#1B677D] from-40% via-[#b7c3c4] via-60% to-[#5e98aa] to-100% hover:bg-gradient-to-tl from-[#2C86A6] to-[#A2A8B2] font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center">
                 Next Section
-                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                    fill="none" viewBox="0 0 14 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M1 5h12m0 0L9 1m4 4L9 9" />
                 </svg>
             </button>
         </div>
     </div>
-    
-    <div id="about" 
-         class="w-full 
-                h-full">
-        <h1 class="p-8 
-                   ml-5 
-                   text-5xl
-                   lg:text-6xl
-                   font-extrabold
-                   animate-fade-right"
-                   >About Me
-        </h1>    
-        <section class="lg:flex 
-                        items-center 
-                        p-7 
-                        mx-auto">
-            <div class="lg:w-2/5 
-                        p-6 
-                        flex 
-                        justify-center">
-                <img class="rounded-lg 
-                            lg:max-w-72 
-                            lg:max-h-72 
-                            max-w-41
-                            animate-fade-right" 
-                     src="/media/11.webp" 
-                     alt=""
-                     draggable="false">
+
+    <div id="about" class="w-full h-full">
+        <h1 class="p-8 ml-5 text-5xl lg:text-6xl font-extrabold animate-fade-right">
+            About Me
+        </h1>
+        <section class="lg:flex items-center p-7 mx-auto">
+            <div class="lg:w-2/5 p-6 flex justify-center">
+                <img class="rounded-lg lg:max-w-72 lg:max-h-72 max-w-41 animate-fade-right" src="/media/11.webp" alt=""
+                    draggable="false" />
             </div>
-            <div class="lg:w-3/5 
-                        p-6 
-                        flex 
-                        justify-center
-                        animate-fade-right">
-                <h1 class="text-4xl 
-                           font-semibold"
-                           >Hi!, Iam Geran / Gurainzu, this is(nt) my portofolio website version 3.
+            <div class="lg:w-3/5 p-6 flex justify-center animate-fade-right">
+                <h1 class="text-4xl font-semibold">
+                    Hi!, Iam Geran / Gurainzu, this is(nt) my portofolio website version
+                    3.
                 </h1>
             </div>
         </section>
     </div>
-    
-    <h1 id="mal" 
-        class="p-8 mt-5 
-               text-5xl
-               lg:text-6xl
-               font-extrabold
-               animate-fade-right"
-               >My Anime List
-    </h1>    
-    <div id="mal" 
-         class="overflow-y-hidden 
-                overflow-x-auto 
-                flex
-                animelist 
-                mb-16">
-        <a target="_blank" 
-           href="https://myanimelist.net/anime/3786/Shin_Evangelion_Movie_%7C%7C"
-           draggable="false">
-            <img class="hover:animate-wiggle 
-                        hover:animate-twice 
-                        hover:animate-duration-500 
-                        animate-fade-up
-                        animate-duration-1000
-                        animate-delay-50
-                        max-w-[250px] 
-                        max-h-[250px] 
-                        p-3 
-                        grayscale 
-                        hover:grayscale-0" 
-                 src="/media/banner-eva.jpg" 
-                 alt=""
-                 draggable="false">
+
+    <h1 id="mal" class="p-8 mt-5 text-5xl lg:text-6xl font-extrabold animate-fade-right">
+        My Anime List
+    </h1>
+    <div id="mal" class="overflow-y-hidden overflow-x-auto flex animelist mb-16">
+        <a target="_blank" href="https://myanimelist.net/anime/3786/Shin_Evangelion_Movie_%7C%7C" draggable="false">
+            <img class="hover:animate-wiggle hover:animate-twice hover:animate-duration-500 animate-fade-up animate-duration-1000 animate-delay-50 max-w-[250px] max-h-[250px] p-3 grayscale hover:grayscale-0"
+                src="/media/banner-eva.jpg" alt="" draggable="false" />
         </a>
-        <a target="_blank" 
-           href="https://myanimelist.net/anime/22297/Fate_stay_night__Unlimited_Blade_Works"
-           draggable="false">
-            <img class="hover:animate-wiggle 
-                        hover:animate-twice 
-                        hover:animate-duration-500
-                        animate-fade-up
-                        animate-duration-1000
-                        animate-delay-100
-                        max-w-[250px] 
-                        max-h-[250px] 
-                        p-3 
-                        grayscale 
-                        hover:grayscale-0" 
-                 src="/media/banner-ubw.jpg" 
-                 alt=""
-                 draggable="false">
+        <a target="_blank" href="https://myanimelist.net/anime/22297/Fate_stay_night__Unlimited_Blade_Works"
+            draggable="false">
+            <img class="hover:animate-wiggle hover:animate-twice hover:animate-duration-500 animate-fade-up animate-duration-1000 animate-delay-100 max-w-[250px] max-h-[250px] p-3 grayscale hover:grayscale-0"
+                src="/media/banner-ubw.jpg" alt="" draggable="false" />
         </a>
-        <a target="_blank" 
-           href="https://myanimelist.net/anime/23277/Saenai_Heroine_no_Sodatekata"
-           draggable="false">
-            <img class="hover:animate-wiggle 
-                        hover:animate-twice 
-                        hover:animate-duration-500
-                        animate-fade-up
-                        animate-duration-1000
-                        animate-delay-150
-                        max-w-[250px] 
-                        max-h-[250px] 
-                        p-3 
-                        grayscale 
-                        hover:grayscale-0" 
-                 src="/media/banner-saekano.jpg" 
-                 alt=""
-                 draggable="false">
+        <a target="_blank" href="https://myanimelist.net/anime/23277/Saenai_Heroine_no_Sodatekata" draggable="false">
+            <img class="hover:animate-wiggle hover:animate-twice hover:animate-duration-500 animate-fade-up animate-duration-1000 animate-delay-150 max-w-[250px] max-h-[250px] p-3 grayscale hover:grayscale-0"
+                src="/media/banner-saekano.jpg" alt="" draggable="false" />
         </a>
-        <a target="_blank" 
-           href="https://myanimelist.net/anime/32949/Kuzu_no_Honkai"
-           draggable="false">
-            <img class="hover:animate-wiggle 
-                        hover:animate-twice 
-                        hover:animate-duration-500
-                        animate-fade-up
-                        animate-duration-1000
-                        animate-delay-200
-                        max-w-[250px] 
-                        max-h-[250px] 
-                        p-3 
-                        grayscale 
-                        hover:grayscale-0" 
-                 src="/media/banner-scumwish.jpg" 
-                 alt=""
-                 draggable="false">
+        <a target="_blank" href="https://myanimelist.net/anime/32949/Kuzu_no_Honkai" draggable="false">
+            <img class="hover:animate-wiggle hover:animate-twice hover:animate-duration-500 animate-fade-up animate-duration-1000 animate-delay-200 max-w-[250px] max-h-[250px] p-3 grayscale hover:grayscale-0"
+                src="/media/banner-scumwish.jpg" alt="" draggable="false" />
         </a>
-        <a target="_blank" 
-           href="https://myanimelist.net/anime/33674/No_Game_No_Life__Zero"
-           draggable="false">
-            <img class="hover:animate-wiggle 
-                        hover:animate-twice 
-                        hover:animate-duration-500
-                        animate-fade-up
-                        animate-duration-1000
-                        animate-delay-[250ms]
-                        max-w-[250px] 
-                        max-h-[250px] 
-                        p-3 
-                        grayscale 
-                        hover:grayscale-0" 
-                 src="/media/banner-ngnl0.jpg" 
-                 alt=""
-                 draggable="false">
+        <a target="_blank" href="https://myanimelist.net/anime/33674/No_Game_No_Life__Zero" draggable="false">
+            <img class="hover:animate-wiggle hover:animate-twice hover:animate-duration-500 animate-fade-up animate-duration-1000 animate-delay-[250ms] max-w-[250px] max-h-[250px] p-3 grayscale hover:grayscale-0"
+                src="/media/banner-ngnl0.jpg" alt="" draggable="false" />
         </a>
-        <a target="_blank" 
-           href="https://myanimelist.net/anime/37982/Domestic_na_Kanojo"
-           draggable="false">
-            <img class="hover:animate-wiggle 
-                        hover:animate-twice 
-                        hover:animate-duration-500
-                        animate-fade-up
-                        animate-duration-1000
-                        animate-delay-[300ms]
-                        max-w-[250px] 
-                        max-h-[250px] 
-                        p-3 
-                        grayscale 
-                        hover:grayscale-0" 
-                 src="/media/banner-dnk.jpg" 
-                 alt=""
-                 draggable="false">
+        <a target="_blank" href="https://myanimelist.net/anime/37982/Domestic_na_Kanojo" draggable="false">
+            <img class="hover:animate-wiggle hover:animate-twice hover:animate-duration-500 animate-fade-up animate-duration-1000 animate-delay-[300ms] max-w-[250px] max-h-[250px] p-3 grayscale hover:grayscale-0"
+                src="/media/banner-dnk.jpg" alt="" draggable="false" />
         </a>
-        <a target="_blank" 
-           href="https://myanimelist.net/anime/42310/Cyberpunk__Edgerunners"
-           draggable="false">
-            <img class="hover:animate-wiggle 
-                        hover:animate-twice 
-                        hover:animate-duration-500
-                        animate-fade-up
-                        animate-duration-1000
-                        animate-delay-[350ms]
-                        max-w-[250px] 
-                        max-h-[250px] 
-                        p-3 
-                        grayscale 
-                        hover:grayscale-0" 
-                 src="/media/banner-cyberpunk.jpg" 
-                 alt=""
-                 draggable="false">
+        <a target="_blank" href="https://myanimelist.net/anime/42310/Cyberpunk__Edgerunners" draggable="false">
+            <img class="hover:animate-wiggle hover:animate-twice hover:animate-duration-500 animate-fade-up animate-duration-1000 animate-delay-[350ms] max-w-[250px] max-h-[250px] p-3 grayscale hover:grayscale-0"
+                src="/media/banner-cyberpunk.jpg" alt="" draggable="false" />
         </a>
-        <a target="_blank" 
-           href="https://myanimelist.net/anime/48569/86_Part_2"
-           draggable="false">
-            <img class="hover:animate-wiggle 
-                        hover:animate-twice 
-                        hover:animate-duration-500
-                        animate-fade-up
-                        animate-duration-1000
-                        animate-delay-[400ms]
-                        max-w-[250px] 
-                        max-h-[250px] 
-                        p-3 
-                        grayscale 
-                        hover:grayscale-0" 
-                 src="/media/banner-86p2.jpg" 
-                 alt=""
-                 draggable="false">
+        <a target="_blank" href="https://myanimelist.net/anime/48569/86_Part_2" draggable="false">
+            <img class="hover:animate-wiggle hover:animate-twice hover:animate-duration-500 animate-fade-up animate-duration-1000 animate-delay-[400ms] max-w-[250px] max-h-[250px] p-3 grayscale hover:grayscale-0"
+                src="/media/banner-86p2.jpg" alt="" draggable="false" />
         </a>
-        <a target="_blank" 
-           href="https://myanimelist.net/anime/6547/Angel_Beats"
-           draggable="false">
-            <img class="hover:animate-wiggle 
-                        hover:animate-twice 
-                        hover:animate-duration-500
-                        animate-fade-up
-                        animate-duration-1000
-                        animate-delay-[450ms]
-                        max-w-[250px] 
-                        max-h-[250px] 
-                        p-3 
-                        grayscale 
-                        hover:grayscale-0" 
-                 src="/media/banner-angelbeats.jpg" 
-                 alt=""
-                 draggable="false">
+        <a target="_blank" href="https://myanimelist.net/anime/6547/Angel_Beats" draggable="false">
+            <img class="hover:animate-wiggle hover:animate-twice hover:animate-duration-500 animate-fade-up animate-duration-1000 animate-delay-[450ms] max-w-[250px] max-h-[250px] p-3 grayscale hover:grayscale-0"
+                src="/media/banner-angelbeats.jpg" alt="" draggable="false" />
         </a>
-        <a target="_blank" 
-           href="https://myanimelist.net/anime/5081/Bakemonogatari"
-           draggable="false">
-            <img class="hover:animate-wiggle 
-                        hover:animate-twice 
-                        hover:animate-duration-500
-                        animate-fade-up
-                        animate-duration-1000
-                        animate-delay-[500ms]
-                        max-w-[250px] 
-                        max-h-[250px] 
-                        p-3 
-                        grayscale 
-                        hover:grayscale-0" 
-                 src="/media/banner-monogatari.jpg" 
-                 alt=""
-                 draggable="false">
+        <a target="_blank" href="https://myanimelist.net/anime/5081/Bakemonogatari" draggable="false">
+            <img class="hover:animate-wiggle hover:animate-twice hover:animate-duration-500 animate-fade-up animate-duration-1000 animate-delay-[500ms] max-w-[250px] max-h-[250px] p-3 grayscale hover:grayscale-0"
+                src="/media/banner-monogatari.jpg" alt="" draggable="false" />
         </a>
-        <a target="_blank" 
-           href="https://myanimelist.net/anime/11757/Sword_Art_Online"
-           draggable="false">
-            <img draggable="false" 
-                 class="hover:animate-wiggle 
-                        hover:animate-twice 
-                        hover:animate-duration-500
-                        animate-fade-up
-                        animate-duration-1000
-                        animate-delay-[550ms]
-                        max-w-[250px] 
-                        max-h-[250px] 
-                        p-3 
-                        grayscale 
-                        hover:grayscale-0" 
-                 src="/media/banner-sao.jpg" 
-                 alt="">
+        <a target="_blank" href="https://myanimelist.net/anime/11757/Sword_Art_Online" draggable="false">
+            <img draggable="false"
+                class="hover:animate-wiggle hover:animate-twice hover:animate-duration-500 animate-fade-up animate-duration-1000 animate-delay-[550ms] max-w-[250px] max-h-[250px] p-3 grayscale hover:grayscale-0"
+                src="/media/banner-sao.jpg" alt="" />
         </a>
-        <a target="_blank" 
-           href="https://myanimelist.net/anime/33352/Violet_Evergarden"
-           draggable="false">
-            <img draggable="false" 
-                 class="hover:animate-wiggle 
-                        hover:animate-twice 
-                        hover:animate-duration-500
-                        animate-fade-up
-                        animate-duration-1000
-                        animate-delay-[600ms]
-                        max-w-[250px] 
-                        max-h-[250px] 
-                        p-3 
-                        grayscale 
-                        hover:grayscale-0" 
-                 src="/media/banner-violet.jpg" 
-                 alt="">
+        <a target="_blank" href="https://myanimelist.net/anime/33352/Violet_Evergarden" draggable="false">
+            <img draggable="false"
+                class="hover:animate-wiggle hover:animate-twice hover:animate-duration-500 animate-fade-up animate-duration-1000 animate-delay-[600ms] max-w-[250px] max-h-[250px] p-3 grayscale hover:grayscale-0"
+                src="/media/banner-violet.jpg" alt="" />
         </a>
-        <a target="_blank" 
-           href="https://myanimelist.net/anime/43299/Wonder_Egg_Priority"
-           draggable="false">
-            <img draggable="false" 
-                 class="hover:animate-wiggle 
-                        hover:animate-twice 
-                        hover:animate-duration-500
-                        animate-fade-up
-                        animate-duration-1000
-                        animate-delay-[650ms]
-                        max-w-[250px] 
-                        max-h-[250px] 
-                        p-3 
-                        grayscale 
-                        hover:grayscale-0" 
-                 src="/media/banner-wonderegg.jpg" 
-                 alt="">
+        <a target="_blank" href="https://myanimelist.net/anime/43299/Wonder_Egg_Priority" draggable="false">
+            <img draggable="false"
+                class="hover:animate-wiggle hover:animate-twice hover:animate-duration-500 animate-fade-up animate-duration-1000 animate-delay-[650ms] max-w-[250px] max-h-[250px] p-3 grayscale hover:grayscale-0"
+                src="/media/banner-wonderegg.jpg" alt="" />
         </a>
     </div>
 
-    <h1 id="project"
-        class="p-8
-               ml-5 
-               text-5xl
-               lg:text-6xl
-               font-extrabold
-               animate-fade-right"
-               >Projects
+    <h1 id="project" class="p-8 ml-5 text-5xl lg:text-6xl font-extrabold animate-fade-right">
+        Projects
     </h1>
 
-    <div id="project"
-         class="p-8
-                ">
-        <div class="bg-[#24292f]
-                    rounded-lg
-                    animate-fade-up 
-                    animate-once 
-                    animate-duration-1000
-                    mx-auto
-                    mb-8">
+    <div id="project" class="p-8">
+        <div class="bg-[#24292f] rounded-lg animate-fade-up animate-once animate-duration-1000 mx-auto mb-8">
             <div class="p-8">
-                <a href=""
-                   draggable="false">
-                    <h1 class="text-white
-                                 text-4xl
-                                 text-center
-                                 font-extrabold
-                                 p-2
-                                 ">
+                <a href="" draggable="false">
+                    <h1 class="text-white text-4xl text-center font-extrabold p-2">
                         protoran
                     </h1>
                 </a>
-                <iframe src="https://protoran.vercel.app" 
-                        frameborder="0"
-                        class="mt-4 
-                               mb-4
-                               rounded-lg
-                               overflow-y-hidden
-                               w-full
-                               h-screen"
-                        draggable="false">
+                <iframe src="https://protoran.vercel.app" frameborder="0"
+                    class="mt-4 mb-4 rounded-lg overflow-y-hidden w-full h-screen" draggable="false">
                 </iframe>
             </div>
         </div>
 
-        <div class="bg-[#24292f]
-                    rounded-lg 
-                    animate-fade-up 
-                    animate-once 
-                    animate-duration-1000
-                    mx-auto
-                    mt-8">
+        <div class="bg-[#24292f] rounded-lg animate-fade-up animate-once animate-duration-1000 mx-auto mt-8">
             <div class="p-8">
-                <a href=""
-                   draggable="false">
-                    <h1 class="text-white
-                                 text-4xl
-                                 text-center
-                                 font-extrabold
-                                 p-2
-                                 ">
+                <a href="" draggable="false">
+                    <h1 class="text-white text-4xl text-center font-extrabold p-2">
                         gurainzuv3.2
                     </h1>
                 </a>
-                <iframe src="https://gurainzuv3-2.vercel.app" 
-                        frameborder="0"
-                        class="mt-4 
-                               mb-4
-                               rounded-lg
-                               overflow-y-hidden
-                               w-full
-                               h-screen"
-                        draggable="false">
+                <iframe src="https://gurainzuv3-2.vercel.app" frameborder="0"
+                    class="mt-4 mb-4 rounded-lg overflow-y-hidden w-full h-screen" draggable="false">
                 </iframe>
             </div>
         </div>
     </div>
 
-    <h1 id="random" 
-        class="p-8 
-               mt-10 
-               text-5xl
-               lg:text-6xl
-               font-extrabold
-               animate-fade-right"
-               >Random Shit
-    </h1>    
-        <div class="px-12 
-                    mt-10 
-                    flex 
-                    justify-center 
-                    max-h-screen">
-            <div class="max-w-xs 
-                        max-h-sm 
-                        lg:max-w-screen-lg 
-                        lg:max-h-screen-lg 
-                        bg-[#24292f] 
-                        lg:max-h-md 
-                        rounded-lg 
-                        animate-fade-up 
-                        animate-once 
-                        animate-duration-1000">
-                <div class="p-8">
-                    <a target="_blank" 
-                       href="https://www.youtube.com/watch?v=HWHb_EtDezU&t=67s"
-                       draggable="false">
-                        <h1 class="text-white 
-                                    text-4xl 
-                                    text-center 
-                                    font-extrabold"
-                                    >DNS Server - Bind9
-                        </h1>
-                    </a>
-                </div>
-                <div>
-                    <iframe
-                        class="max-w-xs
-                               max-h-sm
-                               lg:max-w-screen-lg
-                               lg:max-h-screen-lg" 
-                        width="560" 
-                        height="315" 
-                        src="https://www.youtube.com/embed/HWHb_EtDezU?si=WM4d7Bm4sgftV9wT"
-                        draggable="false"
-                        title="DNS Server - BIND9" 
-                        frameborder="0" 
-                        allow="accelerometer; 
-                               autoplay; 
-                               clipboard-write; 
-                               encrypted-media; 
-                               gyroscope; 
-                               picture-in-picture; 
-                               web-share" 
-                        referrerpolicy="strict-origin-when-cross-origin" 
-                        allowfullscreen>
-                    </iframe>
-                </div>
-            </div>
-          </div>
-    
-          <div class="px-12 
-                      mt-10 
-                      flex 
-                      justify-center 
-                      max-h-screen">
-            <div class="max-w-xs 
-                        max-h-sm 
-                        lg:max-w-screen-lg 
-                        lg:max-h-screen-lg 
-                        bg-[#24292f] 
-                        lg:max-h-md 
-                        rounded-lg 
-                        animate-fade-up 
-                        animate-once 
-                        animate-duration-1000">
-                <div class="p-8">
-                    <a target="_blank" 
-                       href="https://www.youtube.com/watch?v=nStP_1qgpkM&t=11s"
-                       draggable="false">
-                        <h1 class="text-white 
-                                   text-4xl 
-                                   text-center 
-                                   font-extrabold"
-                                   >File Samba - smbd
-                        </h1>
-                    </a>
-                </div>
-                <div class="">
-                    <iframe 
-                        class="max-w-xs
-                               max-h-sm
-                               lg:max-w-screen-lg
-                               lg:max-h-screen-lg"
-                        width="560" 
-                        height="315" 
-                        src="https://www.youtube.com/embed/nStP_1qgpkM?si=9fsL5FWM6acrRFZ0" 
-                        draggable="false"
-                        title="File Smba - smbd" 
-                        frameborder="0" 
-                        allow="accelerometer; 
-                               autoplay; 
-                               clipboard-write; 
-                               encrypted-media; 
-                               gyroscope; 
-                               picture-in-picture; 
-                               web-share" 
-                        referrerpolicy="strict-origin-when-cross-origin" 
-                        allowfullscreen>
-                    </iframe>
-                </div>
-            </div>
-          </div>
-    
-          <div class="px-12 
-                      mt-10 
-                      flex 
-                      justify-center 
-                      max-h-screen 
-                      mb-10">
-            <div class="max-w-xs 
-                        max-h-sm 
-                        lg:max-w-screen-lg 
-                        lg:max-h-screen-lg 
-                        bg-[#24292f] 
-                        lg:max-h-md 
-                        rounded-lg 
-                        animate-fade-up 
-                        animate-once 
-                        animate-duration-1000">
-                <div class="p-8">
-                    <a target="_blank" 
-                       href="https://www.youtube.com/watch?v=uQ45u6Kpx1M"
-                       draggable="false">
-                        <h1 class="text-white 
-                                   text-4xl 
-                                   text-center 
-                                   font-extrabold"
-                                   >FTP - proftpd
-                        </h1>
-                    </a>
-                </div>
-                <div class="">
-                    <iframe 
-                        class="max-w-xs
-                               max-h-sm
-                               lg:max-w-screen-lg
-                               lg:max-h-screen-lg"
-                        width="560" 
-                        height="315" 
-                        src="https://www.youtube.com/embed/uQ45u6Kpx1M?si=i_ZUcgcryVpROSUq" 
-                        draggable="false"
-                        title="File Smba - smbd" 
-                        frameborder="0" 
-                        allow="accelerometer; 
-                               autoplay; 
-                               clipboard-write; 
-                               encrypted-media; 
-                               gyroscope; 
-                               picture-in-picture; 
-                               web-share" 
-                        referrerpolicy="strict-origin-when-cross-origin" 
-                        allowfullscreen>
-                    </iframe>
-                </div>
-            </div>
-          </div>
-    
-        <div class="fixed 
-                    bottom-0 
-                    p-6 
-                    hover:animate-pulse 
-                    hover:animate-infinite 
-                    hover:animate-duration-1000">
-            <button type="button" 
-                    class="text-white 
-                           bg-[#24292F] 
-                           hover:bg-[#24292F]/90 
-                           focus:ring-4 
-                           focus:outline-none 
-                           focus:ring-[#24292F]/50 
-                           font-medium 
-                           rounded-lg 
-                           text-sm 
-                           px-5 
-                           py-2.5 
-                           text-center 
-                           inline-flex 
-                           items-center 
-                           dark:focus:ring-gray-500 
-                           dark:hover:bg-[#050708]/30 
-                           mr-2 
-                           mb-[4px] ">
-                <svg class="w-4 
-                            h-4 
-                            mr-2" 
-                     aria-hidden="true" 
-                     xmlns="http://www.w3.org/2000/svg" 
-                     fill="currentColor" 
-                     viewBox="0 0 20 20">
-                  <path fill-rule="evenodd" 
-                        d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z" clip-rule="evenodd"/>
-                </svg>
-                <a target="_blank" 
-                   draggable="false"
-                   href="https://github.com/gurainzu">GitHub</a>
-            </button>
-        </div>
+    <h1 id="random" class="p-8 mt-10 text-5xl lg:text-6xl font-extrabold animate-fade-right">
+        Random Shit
+    </h1>
 
-        <div id="backtotop" 
-             class="hidden 
-                    fixed 
-                    bottom-0 
-                    right-0 
-                    p-6 
-                    hover:animate-pulse 
-                    hover:animate-infinite 
-                    hover:animate-duration-1000">
-            <button type="button" 
-                    class="text-white 
-                           bg-[#24292F] 
-                           hover:bg-[#24292F]/90 
-                           focus:ring-4 
-                           focus:outline-none 
-                           focus:ring-[#24292F]/50 
-                           font-medium 
-                           rounded-lg 
-                           text-sm 
-                           px-4
-                           py-2.5 
-                           text-center 
-                           inline-flex 
-                           items-center 
-                           dark:focus:ring-gray-500 
-                           dark:hover:bg-[#050708]/30 
-                           mr-2 mb-[4px] ">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4">
-                <path d="M12 4l8 8h-6v8h-4v-8H4l8-8z" /></svg>
-                <span class="sr-only">Go to top</span>
-            </button>
+    <div class="relative flex h-64 w-96 cursor-pointer flex-col overflow-hidden rounded-lg bg-white bg-clip-border shadow-sm transition-opacity hover:opacity-90"
+        data-dialog-target="image-dialog">
+        <img alt="nature" class="h-full w-full object-cover object-center"
+            src="https://64.media.tumblr.com/1aa9ddcf1f7b8c7538f4fce4949bfbbd/baa7ae6232edccfa-da/s1280x1920/3a8fef9fd5b0760c22ad1875bd4d8d099f50c737.jpg" />
+    </div>
+    <div data-dialog-backdrop="image-dialog" data-dialog-backdrop-close="true"
+        class="pointer-events-none fixed inset-0 z-[999] grid h-screen w-screen place-items-center bg-black bg-opacity-60 opacity-0 backdrop-blur-sm transition-opacity duration-300">
+        <div class="relative m-4 w-2/4 rounded-lg bg-white shadow-sm" role="dialog" data-dialog="image-dialog">
+            <div class="flex items-center justify-between p-4">
+                <div class="flex items-center gap-3">
+                    <div class="-mt-px flex flex-col">
+                        <p class="text-sm text-slate-800 font-medium">Tania Andrew</p>
+                        <p class="text-xs font-normal text-slate-500">@andrew</p>
+                    </div>
+                </div>
+                <div class="flex items-center gap-2">
+                    <button
+                        class="rounded-md border border-transparent p-2.5 text-center text-sm transition-all text-slate-600 hover:bg-slate-100 focus:bg-slate-100 active:bg-slate-100 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                        type="button">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4">
+                            <path
+                                d="m11.645 20.91-.007-.003-.022-.012a15.247 15.247 0 0 1-.383-.218 25.18 25.18 0 0 1-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0 1 12 5.052 5.5 5.5 0 0 1 16.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 0 1-4.244 3.17 15.247 15.247 0 0 1-.383.219l-.022.012-.007.004-.003.001a.752.752 0 0 1-.704 0l-.003-.001Z" />
+                        </svg>
+                    </button>
+                    <button
+                        class="rounded-md bg-slate-800 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                        type="button">
+                        Free Download
+                    </button>
+                </div>
+            </div>
+            <div
+                class="relative border-b border-t border-b-blue-gray-100 border-t-blue-gray-100 p-0 font-sans text-base font-light leading-relaxed text-blue-gray-500 antialiased">
+                <img alt="nature" class="h-[30rem] w-full object-cover object-center"
+                    src="https://64.media.tumblr.com/1aa9ddcf1f7b8c7538f4fce4949bfbbd/baa7ae6232edccfa-da/s1280x1920/3a8fef9fd5b0760c22ad1875bd4d8d099f50c737.jpg" />
+            </div>
         </div>
+    </div>
+    </div>
 
-        <script src="script.js"></script>
-        
+    <div class="px-12 mt-10 flex justify-center max-h-screen">
+        <div
+            class="max-w-xs max-h-sm lg:max-w-screen-lg lg:max-h-screen-lg bg-[#24292f] lg:max-h-md rounded-lg animate-fade-up animate-once animate-duration-1000">
+            <div class="p-8">
+                <a target="_blank" href="https://www.youtube.com/watch?v=HWHb_EtDezU&t=67s" draggable="false">
+                    <h1 class="text-white text-4xl text-center font-extrabold">
+                        DNS Server - Bind9
+                    </h1>
+                </a>
+            </div>
+            <div>
+                <iframe class="max-w-xs max-h-sm lg:max-w-screen-lg lg:max-h-screen-lg" width="560" height="315"
+                    src="https://www.youtube.com/embed/HWHb_EtDezU?si=WM4d7Bm4sgftV9wT" draggable="false"
+                    title="DNS Server - BIND9" frameborder="0" allow="accelerometer; 
+                               autoplay; 
+                               clipboard-write; 
+                               encrypted-media; 
+                               gyroscope; 
+                               picture-in-picture; 
+                               web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="px-12 mt-10 flex justify-center max-h-screen">
+        <div
+            class="max-w-xs max-h-sm lg:max-w-screen-lg lg:max-h-screen-lg bg-[#24292f] lg:max-h-md rounded-lg animate-fade-up animate-once animate-duration-1000">
+            <div class="p-8">
+                <a target="_blank" href="https://www.youtube.com/watch?v=nStP_1qgpkM&t=11s" draggable="false">
+                    <h1 class="text-white text-4xl text-center font-extrabold">
+                        File Samba - smbd
+                    </h1>
+                </a>
+            </div>
+            <div class="">
+                <iframe class="max-w-xs max-h-sm lg:max-w-screen-lg lg:max-h-screen-lg" width="560" height="315"
+                    src="https://www.youtube.com/embed/nStP_1qgpkM?si=9fsL5FWM6acrRFZ0" draggable="false"
+                    title="File Smba - smbd" frameborder="0" allow="accelerometer; 
+                               autoplay; 
+                               clipboard-write; 
+                               encrypted-media; 
+                               gyroscope; 
+                               picture-in-picture; 
+                               web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="px-12 mt-10 flex justify-center max-h-screen mb-10">
+        <div
+            class="max-w-xs max-h-sm lg:max-w-screen-lg lg:max-h-screen-lg bg-[#24292f] lg:max-h-md rounded-lg animate-fade-up animate-once animate-duration-1000">
+            <div class="p-8">
+                <a target="_blank" href="https://www.youtube.com/watch?v=uQ45u6Kpx1M" draggable="false">
+                    <h1 class="text-white text-4xl text-center font-extrabold">
+                        FTP - proftpd
+                    </h1>
+                </a>
+            </div>
+            <div class="">
+                <iframe class="max-w-xs max-h-sm lg:max-w-screen-lg lg:max-h-screen-lg" width="560" height="315"
+                    src="https://www.youtube.com/embed/uQ45u6Kpx1M?si=i_ZUcgcryVpROSUq" draggable="false"
+                    title="File Smba - smbd" frameborder="0" allow="accelerometer; 
+                               autoplay; 
+                               clipboard-write; 
+                               encrypted-media; 
+                               gyroscope; 
+                               picture-in-picture; 
+                               web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+    <div id="github"
+        class="fixed bottom-0 hidden p-6 hover:animate-pulse hover:animate-infinite hover:animate-duration-1000">
+        <button type="button"
+            class="text-white bg-[#24292F] hover:bg-[#24292F]/90 focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30 mr-2 mb-[4px]">
+            <svg class="w-4 h-4 mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                viewBox="0 0 20 20">
+                <path fill-rule="evenodd"
+                    d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z"
+                    clip-rule="evenodd" />
+            </svg>
+            <a target="_blank" draggable="false" href="https://github.com/gurainzu">GitHub</a>
+        </button>
+    </div>
+
+    <div id="backtotop"
+        class="hidden fixed bottom-0 right-0 p-6 hover:animate-pulse hover:animate-infinite hover:animate-duration-1000">
+        <button type="button"
+            class="text-white bg-[#24292F] hover:bg-[#24292F]/90 focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30 mr-2 mb-[4px]">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4">
+                <path d="M12 4l8 8h-6v8h-4v-8H4l8-8z" />
+            </svg>
+            <span class="sr-only">Go to top</span>
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="node_modules/@material-tailwind/html@latest/scripts/dialog.js"></script>
+    <script src="https://unpkg.com/@material-tailwind/html@latest/scripts/dialog.js"></script>
 </body>
-</html> 
+
+</html>
