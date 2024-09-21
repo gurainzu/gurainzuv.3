@@ -2011,6 +2011,10 @@ video {
   background-image: linear-gradient(to top left, var(--tw-gradient-stops));
 }
 
+.bg-gradient-to-r{
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
 .from-\[\#1B677D\]{
   --tw-gradient-from: #1B677D var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(27 103 125 / 0) var(--tw-gradient-to-position);
