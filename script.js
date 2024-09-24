@@ -21,7 +21,7 @@ mybutton.addEventListener("click", backToTop);
 window.addEventListener("scroll", scrollFunction);
 
 // Drag scrolling function
-const slider = document.querySelector(".animelist");
+const slider = document.querySelector(".animelist", ".modals1", "modals2");
 let isDown = false;
 let startX;
 let scrollLeft;
